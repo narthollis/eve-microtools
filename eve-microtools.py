@@ -38,7 +38,10 @@ def name_to_id():
     return (
         json.dumps(out),
         200,
-        {'Content-Type': 'application/json'}
+        {
+            'Content-Type': 'application/json',
+            'Access-Control-Allow-Origin': '*'
+        }
     )
 
 if __name__ == '__main__':
