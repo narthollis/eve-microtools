@@ -1,1 +1,1 @@
-web: gunicorn eve-microtools.wsgi --log-file -
+web: gunicorn eve-microtools:app --log-file -
