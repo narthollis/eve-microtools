@@ -5,7 +5,7 @@ import pickle
 import json
 
 app = Flask(__name__)
-app.debug = True
+#app.debug = True
 
 
 @app.route('/test/', methods=['GET'])
